@@ -1,0 +1,20 @@
+nav {
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+}
+
+li:first-child {
+  background: #d9d6d6;
+  border-radius: 5px;
+}
+
+a {
+  padding: 0.5rem 1.5rem;
+}

@@ -1,0 +1,54 @@
+#board {
+  margin-top: 0;
+  height: 100vh;
+  padding: 0;
+}
+
+#board h3,
+p {
+  margin: 0;
+}
+
+.header {
+  height: 10vh;
+  background: #218a3c;
+  text-align: center;
+  padding-top: 1rem;
+  color: white;
+}
+
+.header > h1 {
+  margin: 0;
+  color: white;
+}
+
+#board > main > h2 {
+  text-align: center;
+  background: #dad5d562;
+  font-size: 1rem;
+}
+.header a {
+  padding-inline: 1rem;
+  color: white;
+}
+
+main {
+  color: black;
+  padding: 1rem;
+  font-size: 0.8rem;
+}
+
+main > p {
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.school {
+  display: flex;
+  gap: 1rem;
+}
+
+.school > div {
+  padding: 0.5rem 1rem;
+}

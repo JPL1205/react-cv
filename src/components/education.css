@@ -1,0 +1,84 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 5px solid rgba(221, 216, 216, 0.538);
+  padding-bottom: 1rem;
+}
+
+p {
+  margin: 0;
+  margin-top: 10px;
+}
+button {
+  background: white;
+  border: 2px solid #d9d9d95e;
+  border-radius: 2rem;
+  padding: 0.5rem 2rem;
+  color: rgb(126, 124, 124);
+  cursor: pointer;
+}
+
+header > button {
+  font-size: 1rem;
+  border: none;
+}
+
+header > button:focus {
+  outline: none;
+}
+
+.btnContainer {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  align-items: baseline;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 5px solid rgba(221, 216, 216, 0.538);
+}
+.degree {
+  font-size: 0.8rem;
+  margin-left: 5px;
+}
+
+.add-school {
+  border: 1px solid rgba(181, 179, 179, 0.406);
+  padding: 1rem 2rem 1rem;
+  border-radius: 5px;
+  margin-top: 2rem;
+}
+.add-school h3 {
+  margin-top: 1rem;
+}
+.date {
+  display: flex;
+  gap: 3rem;
+}
+
+.date > div {
+  flex: 1;
+}
+
+.btnWrapper {
+  width: 100%;
+  margin-top: 2rem;
+  text-align: end;
+}
+
+.btnWrapper > button {
+  margin-left: 1rem;
+  border-radius: 5px;
+}
+
+.btnWrapper > button:nth-child(2) {
+  background: #268cf9;
+  color: white;
+}
+
+.add-school input {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
